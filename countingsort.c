@@ -61,6 +61,6 @@ void Counting_Sort(int * array, int array_size){
 int main(){
 	int arrayA[] = {2, 6, 4, 3, 2, 3, 4, 6, 3, 4, 3, 5, 2, 6}; 
 	int sizeA = sizeof(arrayA)/sizeof(int); // size of array A.
-	Counting_Sort(arrayA, sizeA); // caller
+	Counting_Sort(arrayA, sizeA); 
 	return 0;
 }
